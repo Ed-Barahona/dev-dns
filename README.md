@@ -8,9 +8,18 @@ Clone the repo
 
 Set up local domains (records.json)
 
-npm install
+$ npm install
  
-npm start / sudo node index.js 
+$ npm start 
+/
+$ sudo node index.js 
+
+Add local DEV-DNS to DNS conf
+$ echo nameserver 127.0.0.1 | sudo tee /etc/resolv.conf
+
+Test:
+$ host test.narvar.dev // Should return 127.0.0.99
+ 
 
 
 ### DNS Stuff
