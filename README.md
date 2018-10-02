@@ -4,7 +4,7 @@ Basic NodeJS DNS Proxy used in local development
 
 ## Usage
 
-Clone the repo
+Clone the repo && cd dev-dns
 
 Set up local domains (records.json)
 
